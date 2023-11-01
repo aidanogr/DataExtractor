@@ -11,8 +11,8 @@ import requests
 import PyPDF2
 import openai
 import csv
-%env NCBI_API_KEY= "55e92a0d05def416e4e5189f2f57ea1cec09"
-openai.api_key = "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"
+%env NCBI_API_KEY= [key here]
+openai.api_key = [key here]
 
 
 ### ATTEMPT TO PULL ARTICLES VIA KEYWORD
