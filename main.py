@@ -37,7 +37,7 @@ import openai
 newl = []
 
 # Replace with your OpenAI API key
-api_key = "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"
+api_key = ""
 
 for i in pmidsStr:
     t = str(fetch.article_by_pmid(i).title)
